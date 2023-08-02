@@ -68,6 +68,9 @@ function libraryFormSubmit(e){
     else if(aptitude.checked){
         type="Aptitude";
     }
+    else{
+        type="Others"
+    }
   
     let tempBook=new Book(name,author,publication,type);
     //console.log(tempBook);
